@@ -1,6 +1,6 @@
 # vector-assignments-sgd
 
-In this repo, we do not tackle any open problems in Mechanistic interpretability problems. I instead would like to propose a set of questions that I have been thinking about for the last few months inspired by research elsewhere. We hope that these questions seem well motivated.
+In this repo, we do not tackle any open problems in Mechanistic interpretability. I instead would like to propose a set of questions that I have been thinking about for the last few months inspired by research elsewhere. We hope that these questions seem well motivated.
 
 Our aim is to study the geometry of vector embeddings. In particular, we want to study the embeddings of a transformer model trained for the purpose of sentence similarity/search using contrastive loss. We want to study this problem for the following reasons, 
 
