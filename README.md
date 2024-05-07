@@ -8,7 +8,7 @@ Our aim is to study the geometry of vector embeddings. In particular, we want to
 2. Optimality of gradient descent based transformer architectures
 3. Demystify anisotropy of vector embeddings
 
-Throughout this notebook we assume that the vectors are unit norm and that they are trained using some kind of contrastive loss. Unit norm forces the model to represent every feature in the output space, i.e. it cannot cop out by turning things off. While contrastive loss for search, allows us to interpret the geometry. As opposed to MLM or Auto-regressive loss where the geometry of the final layer is not necessarily constrained by any geometry; search transformers with contrastive loss literally demands similar vectors to be closer to each other and vice versa. Thus the objective of contrastive loss for search transformer allows us to study the geometry of the model output without us running into circles.
+Throughout this notebook we assume that the vectors are unit norm and that they are trained using some kind of contrastive loss. Unit norm forces the model to represent every feature in the output space, i.e. it cannot cop out by turning things off. While contrastive loss for search, allows us to interpret the geometry. As opposed to MLM or Auto-regressive loss where the geometry of the final layer is not necessarily constrained by any geometry; search transformers with contrastive loss literally demands similar vectors to be closer to each other and vice versa. Thus the objective of contrastive loss for search transformer allows us to study the geometry of the model output without us running into circles..
 
 
 
